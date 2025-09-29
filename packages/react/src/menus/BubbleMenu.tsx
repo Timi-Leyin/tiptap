@@ -72,7 +72,6 @@ export const BubbleMenu = React.forwardRef<HTMLDivElement, BubbleMenuProps>(
           }
         })
       }
-      // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [
       editor,
       currentEditor,
